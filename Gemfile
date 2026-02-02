@@ -1,4 +1,4 @@
-# TrueUP Website — Jekyll dependencies
+# TrueUp Website — Jekyll dependencies
 source "https://rubygems.org"
 
 gem "jekyll", "~> 3.9"

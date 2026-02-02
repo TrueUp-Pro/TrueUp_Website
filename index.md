@@ -1,14 +1,14 @@
 ---
 layout: default
-title: TrueUP
+title: TrueUp
 description: "Expert guidance over video. Clear, trusted, and worth paying for."
 ---
 
-# TrueUP
+# TrueUp
 
 Skilled professionals solve real problems every day. Much of that expertise is given away informally—over the phone, through texts, or during unnecessary site visits—with no clear record, no protection, and no recognition of its value.
 
-TrueUP exists to make expert guidance **clear, trusted, and worth paying for**. We believe skilled work deserves respect, structure, and modern tools that match its importance.
+TrueUp exists to make expert guidance **clear, trusted, and worth paying for**. We believe skilled work deserves respect, structure, and modern tools that match its importance.
 
 ---
 
@@ -32,7 +32,7 @@ We help skilled professionals guide people through real-world problems over vide
 - A contractor verifies measurements remotely before materials are ordered.
 - A technician confirms whether an issue requires an on-site visit.
 
-These are the moments TrueUP is designed for.
+These are the moments TrueUp is designed for.
 
 ---
 
@@ -44,6 +44,6 @@ These are the moments TrueUP is designed for.
 - Experts paid for their time
 - Customers confident in what they've been told
 
-TrueUP succeeds when expert help feels modern, fair, and effective.
+TrueUp succeeds when expert help feels modern, fair, and effective.
 
 [See pricing →]({{ '/pricing/' | relative_url }})

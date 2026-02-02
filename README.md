@@ -1,6 +1,6 @@
-# TrueUP Website
+# TrueUp Website
 
-Jekyll-based site for [TrueUP](https://trueup.com)—expert guidance over video for skilled professionals.
+Jekyll-based site for [TrueUp](https://trueup.com)—expert guidance over video for skilled professionals.
 
 ## Local setup
 

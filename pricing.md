@@ -4,11 +4,11 @@ title: Pricing
 description: "Clear pricing for real work. No fluff. No hidden math."
 ---
 
-# TrueUP Pricing
+# TrueUp Pricing
 
 Clear pricing for real work. No fluff. No hidden math.
 
-TrueUP helps skilled professionals solve problems remotely, avoid unnecessary site visits, and keep a clear record of what was done.
+TrueUp helps skilled professionals solve problems remotely, avoid unnecessary site visits, and keep a clear record of what was done.
 
 ---
 
@@ -25,7 +25,7 @@ For professionals who want to try remote guidance with no commitment.
 
 **Good to know**
 - Limited monthly usage
-- TrueUP branding
+- TrueUp branding
 - With consent, anonymized clips may be used for training or examples
 
 **Best for**
@@ -100,18 +100,18 @@ One remote call can:
 - Prevent repeat callbacks
 - Leave a clear record of instructions
 
-TrueUP usually pays for itself after **one avoided visit**.
+TrueUp usually pays for itself after **one avoided visit**.
 
 ---
 
-## What TrueUP is (and isn't)
+## What TrueUp is (and isn't)
 
-**TrueUP is**
+**TrueUp is**
 - A tool for real-world problem solving
 - A way to guide, verify, and document work
 - Built for skilled professionals
 
-**TrueUP is not**
+**TrueUp is not**
 - A creator platform
 - A social network
 - A marketing tool
@@ -125,4 +125,4 @@ If you're not sure which plan fits your work:
 - See how often remote help replaces visits
 - Upgrade when it makes sense
 
-Expert time matters. TrueUP helps you treat it that way.
+Expert time matters. TrueUp helps you treat it that way.

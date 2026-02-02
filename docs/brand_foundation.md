@@ -1,14 +1,14 @@
-# TrueUP Brand Foundation
+# TrueUp Brand Foundation
 
 ## 1. Why We Exist
 
 Skilled professionals solve real problems every day. Much of that expertise is given away informally—over the phone, through texts, or during unnecessary site visits—with no clear record, no protection, and no recognition of its value.
 
-TrueUP exists to make expert guidance **clear, trusted, and worth paying for**. We believe skilled work deserves respect, structure, and modern tools that match its importance.
+TrueUp exists to make expert guidance **clear, trusted, and worth paying for**. We believe skilled work deserves respect, structure, and modern tools that match its importance.
 
 ---
 
-## 2. Who TrueUP Is For (and Not For)
+## 2. Who TrueUp Is For (and Not For)
 
 ### For
 - Skilled professionals
@@ -24,7 +24,7 @@ People whose value comes from **knowing how to do things**, not talking about kn
 - Personal brand builders
 - Lifestyle or social-media-first users
 
-If someone’s primary goal is visibility or audience growth, TrueUP is not the right tool.
+If someone’s primary goal is visibility or audience growth, TrueUp is not the right tool.
 
 ---
 
@@ -38,7 +38,7 @@ This promise must remain true across every feature, policy, and message.
 
 ## 4. Brand Personality (Guardrails)
 
-TrueUP is:
+TrueUp is:
 - Plainspoken, not polished
 - Practical, not performative
 - Respectful, not salesy
@@ -93,7 +93,7 @@ These principles guide product, policy, and business decisions:
 
 ## 7. Ethics & Trust Boundaries
 
-TrueUP is built on trust.
+TrueUp is built on trust.
 
 - All recordings are transparent and consent-based.
 - We never secretly record conversations.
@@ -112,7 +112,7 @@ If a feature undermines trust, we don’t ship it.
 - A contractor verifies measurements remotely before materials are ordered.
 - A technician confirms whether an issue requires an on-site visit.
 
-These are the moments TrueUP is designed for.
+These are the moments TrueUp is designed for.
 
 ---
 
@@ -124,5 +124,5 @@ These are the moments TrueUP is designed for.
 - Experts paid for their time
 - Customers confident in what they’ve been told
 
-TrueUP succeeds when expert help feels modern, fair, and effective.
+TrueUp succeeds when expert help feels modern, fair, and effective.
 
