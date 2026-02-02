@@ -1,6 +1,30 @@
-<footer class="site-footer">
+<footer class="site-footer{% unless page.parallax %} simple{% endunless %}">
   <div class="wrap">
+    {% if page.parallax %}
+    <div class="footer-brand">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="TrueUp" width="120" height="auto">
+      <p>TrueUp helps skilled professionals guide people through real-world problems over video—clearly, confidently, and with a record of what was done.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Product</h4>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/pricing/' | relative_url }}">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="{{ '/pricing/' | relative_url }}">Get Started</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p class="copy">&copy; {{ 'now' | date: '%Y' }} TrueUp. All rights reserved.</p>
+      <span class="footer-tagline">Expert time matters.</span>
+    </div>
+    {% else %}
     <p>TrueUp helps skilled professionals guide people through real-world problems over video—clearly, confidently, and with a record of what was done.</p>
     <p class="copy">&copy; {{ 'now' | date: '%Y' }} TrueUp. Expert time matters.</p>
+    {% endif %}
   </div>
 </footer>
