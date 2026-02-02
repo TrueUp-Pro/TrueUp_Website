@@ -1,0 +1,223 @@
+/* TrueUP — calm, practical, no hype */
+
+:root {
+  --color-text: #1a1a1a;
+  --color-text-muted: #4a4a4a;
+  --color-bg: #fafafa;
+  --color-surface: #fff;
+  --color-border: #e0e0e0;
+  --color-accent: #2563eb;
+  --color-accent-alt: #c2410c;
+  --font-sans: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-mono: ui-monospace, monospace;
+  --space: 1.25rem;
+  --max-width: 42rem;
+  --radius: 4px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.main {
+  padding: calc(var(--space) * 2) var(--space);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space);
+}
+
+.site-header .wrap {
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space);
+}
+
+.site-header .logo {
+  display: block;
+}
+
+.site-header .logo img {
+  display: block;
+  height: 2.5rem;
+  width: auto;
+}
+
+.site-header .nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-header .nav a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: 0.9375rem;
+}
+
+.site-header .nav a:hover {
+  color: var(--color-accent);
+}
+
+/* Typography */
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: var(--space);
+  font-weight: 600;
+}
+
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.375rem; margin-top: calc(var(--space) * 1.5); }
+h3 { font-size: 1.125rem; }
+
+p {
+  margin: 0 0 var(--space);
+}
+
+ul {
+  margin: 0 0 var(--space);
+  padding-left: 1.25rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.section {
+  margin-bottom: calc(var(--space) * 2);
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.intro {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  margin-bottom: calc(var(--space) * 2);
+}
+
+/* Pricing cards */
+.pricing-intro {
+  margin-bottom: calc(var(--space) * 2);
+  font-size: 1.0625rem;
+}
+
+.plans {
+  display: grid;
+  gap: var(--space);
+  margin-bottom: calc(var(--space) * 2);
+}
+
+.plan {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space);
+}
+
+.plan h3 {
+  margin-bottom: 0.25rem;
+}
+
+.plan .price {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: var(--space);
+  color: var(--color-text);
+}
+
+.plan ul {
+  margin-bottom: var(--space);
+  font-size: 0.9375rem;
+}
+
+.plan .note {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-top: var(--space);
+}
+
+.plan.featured {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 1px var(--color-accent);
+}
+
+/* CTA / block */
+.cta-block {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space);
+  margin-top: calc(var(--space) * 2);
+}
+
+/* Footer */
+.site-footer {
+  margin-top: calc(var(--space) * 3);
+  padding: calc(var(--space) * 2) var(--space);
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+}
+
+.site-footer .wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.site-footer p {
+  margin: 0 0 0.5rem;
+}
+
+.site-footer .copy {
+  margin-top: var(--space);
+  font-size: 0.875rem;
+}
+
+@media (min-width: 48rem) {
+  .plans {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 64rem) {
+  .plans {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
