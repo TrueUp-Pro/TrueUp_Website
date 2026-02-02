@@ -6,7 +6,9 @@ description: "Expert guidance over video. Clear, trusted, and worth paying for."
 baseurl: ""
 url: ""
 
-# Build
+# Build — no theme so our _layouts and css/main.css are used
+theme: null
+
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
