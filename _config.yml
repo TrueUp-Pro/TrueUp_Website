@@ -19,6 +19,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - docs/
+  - vendor
+  - .github
 
 # Plugins: uncomment if using GitHub Pages gem or add to Gemfile
 # plugins:
