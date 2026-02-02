@@ -828,7 +828,7 @@ hr {
   padding: var(--space-md) var(--space-lg);
   text-align: left;
   border-bottom: 1px solid var(--color-border);
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .pricing-comparison th {
@@ -842,6 +842,16 @@ hr {
   padding-bottom: var(--space-lg);
 }
 
+/* Plan columns: flex column so price aligns at bottom across all columns */
+.pricing-comparison thead th.plan-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 7.5rem;
+  text-align: center;
+}
+
 .pricing-comparison .feature-col {
   width: 35%;
   min-width: 180px;
@@ -849,9 +859,13 @@ hr {
   font-weight: 500;
 }
 
+.pricing-comparison thead th.feature-col {
+  vertical-align: middle;
+}
+
 .pricing-comparison .plan-col {
   width: 16.25%;
-  min-width: 120px;
+  min-width: 130px;
   text-align: center;
 }
 
@@ -869,12 +883,15 @@ hr {
   font-weight: 400;
   color: var(--color-text-muted);
   margin-bottom: var(--space-sm);
+  flex-shrink: 0;
 }
 
 .pricing-comparison .plan-col .plan-price {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-blue);
+  white-space: nowrap;
+  margin-top: auto;
 }
 
 .pricing-comparison .plan-col .per {
@@ -900,12 +917,13 @@ hr {
 .pricing-comparison thead .plan-featured {
   border-top: 3px solid var(--color-orange);
   position: relative;
+  padding-top: 2.25rem; /* room for "Most Popular" badge above content */
 }
 
 .pricing-comparison thead .plan-featured::before {
   content: 'Most Popular';
   position: absolute;
-  top: -12px;
+  top: 0.5rem;
   left: 50%;
   transform: translateX(-50%);
   background: var(--color-orange);
@@ -913,7 +931,7 @@ hr {
   font-size: 0.6875rem;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 2px 10px;
+  padding: 4px 10px;
   border-radius: 10px;
   letter-spacing: 0.05em;
 }
