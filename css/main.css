@@ -100,7 +100,8 @@ img {
 .site-header .wrap {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: var(--space-md) var(--space-lg);
+  padding: var(--space-sm) var(--space-lg);
+  min-height: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -108,7 +109,8 @@ img {
 }
 
 .site-header .logo {
-  display: block;
+  display: flex;
+  align-items: center;
   transition: transform 0.2s ease;
 }
 
@@ -118,8 +120,9 @@ img {
 
 .site-header .logo img {
   display: block;
-  height: 3rem;
+  height: 4.25rem;
   width: auto;
+  object-fit: contain;
 }
 
 .site-header .nav {
@@ -1116,7 +1119,7 @@ hr {
   }
 
   .site-header .logo img {
-    height: 2.5rem;
+    height: 3.25rem;
   }
 
   .site-header .nav {
