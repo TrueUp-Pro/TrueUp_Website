@@ -826,8 +826,13 @@ hr {
 .pricing-comparison th,
 .pricing-comparison td {
   padding: var(--space-md) var(--space-lg);
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid var(--color-border);
+  vertical-align: middle;
+}
+
+.pricing-comparison .feature-col {
+  text-align: left;
   vertical-align: middle;
 }
 
@@ -842,21 +847,13 @@ hr {
   padding-bottom: var(--space-lg);
 }
 
-/* Plan columns: flex column so price aligns at bottom across all columns */
-.pricing-comparison thead th.plan-col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  min-height: 7.5rem;
-  text-align: center;
-}
-
-.pricing-comparison .feature-col {
+.pricing-comparison th.feature-col,
+.pricing-comparison td.feature-col {
   width: 35%;
   min-width: 180px;
   color: var(--color-text);
   font-weight: 500;
+  text-align: left;
 }
 
 .pricing-comparison thead th.feature-col {
@@ -902,8 +899,13 @@ hr {
 
 .pricing-comparison .plan-featured {
   background: var(--color-orange-light);
+}
+
+.pricing-comparison thead .plan-featured {
+  border-top: 3px solid var(--color-orange);
   border-left: 3px solid var(--color-orange);
   border-right: 3px solid var(--color-orange);
+  position: relative;
 }
 
 .pricing-comparison .plan-featured .plan-name {
@@ -912,12 +914,6 @@ hr {
 
 .pricing-comparison .plan-featured .plan-price {
   color: var(--color-orange);
-}
-
-.pricing-comparison thead .plan-featured {
-  border-top: 3px solid var(--color-orange);
-  position: relative;
-  padding-top: 2.25rem; /* room for "Most Popular" badge above content */
 }
 
 .pricing-comparison thead .plan-featured::before {
@@ -934,11 +930,16 @@ hr {
   padding: 4px 10px;
   border-radius: 10px;
   letter-spacing: 0.05em;
+  white-space: nowrap;
 }
 
-.pricing-comparison tbody td:nth-child(4) {
-  background: rgba(244, 121, 32, 0.04);
+/* Featured column highlight for body cells */
+.pricing-comparison tbody tr td:nth-child(4) {
+  background: rgba(244, 121, 32, 0.06);
+  border-left: 3px solid var(--color-orange);
+  border-right: 3px solid var(--color-orange);
 }
+
 
 .pricing-comparison td .cell-yes {
   color: var(--color-success);
@@ -959,14 +960,14 @@ hr {
 .pricing-comparison .best-for-row td {
   font-size: 0.8125rem;
   color: var(--color-text-muted);
-  border-bottom: none;
   font-style: italic;
   padding-top: var(--space-lg);
   background: var(--color-bg-alt);
 }
 
 .pricing-comparison .best-for-row td:nth-child(4) {
-  background: rgba(244, 121, 32, 0.08);
+  background: rgba(244, 121, 32, 0.1);
+  border-bottom: 3px solid var(--color-orange);
 }
 
 .pricing-notes {
@@ -1200,10 +1201,11 @@ hr {
   margin: 0 auto;
 }
 
-.main:not(.has-parallax):has(.pricing-page) {
+/* Wide layout for pricing and other full-width pages */
+.main.wide-layout {
   max-width: var(--max-width);
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
 }
 
 /* ==========================================
