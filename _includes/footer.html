@@ -2,7 +2,6 @@
   <div class="wrap">
     {% if page.parallax %}
     <div class="footer-brand">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="TrueUp" width="120" height="auto">
       <p>TrueUp helps skilled professionals guide people through real-world problems over video—clearly, confidently, and with a record of what was done.</p>
     </div>
     <div class="footer-links">
@@ -20,11 +19,20 @@
     </div>
     <div class="footer-bottom">
       <p class="copy">&copy; {{ 'now' | date: '%Y' }} TrueUp. All rights reserved.</p>
+      <p class="footer-legal">
+        <a href="{{ '/terms-of-service/' | relative_url }}">Terms of Service</a>
+        <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
+      </p>
       <span class="footer-tagline">Expert time matters.</span>
     </div>
     {% else %}
     <p>TrueUp helps skilled professionals guide people through real-world problems over video—clearly, confidently, and with a record of what was done.</p>
-    <p class="copy">&copy; {{ 'now' | date: '%Y' }} TrueUp. Expert time matters.</p>
+    <p class="copy">&copy; {{ 'now' | date: '%Y' }} TrueUp. All rights reserved.</p>
+    <p class="footer-legal">
+      <a href="{{ '/terms-of-service/' | relative_url }}">Terms of Service</a>
+      <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
+    </p>
+    <p class="footer-tagline">Expert time matters.</p>
     {% endif %}
   </div>
 </footer>
