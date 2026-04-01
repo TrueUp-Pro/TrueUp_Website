@@ -919,6 +919,16 @@ hr {
   color: var(--color-orange);
 }
 
+.pricing-comparison .plan-price .contact-link {
+  color: var(--color-blue);
+  text-decoration: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.pricing-comparison .plan-price .contact-link:hover {
+  text-decoration: underline;
+}
+
 .pricing-comparison thead .plan-featured::before {
   content: 'Most Popular';
   position: absolute;
